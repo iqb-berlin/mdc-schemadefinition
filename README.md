@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # Metadaten als flexible Objekteigenschaften
 In Anwendungen mit einigermaßen umfangreichen Datenstrukturen 
 möchte man möglichst flexibel Objekteigenschaften speichern.
