@@ -1,0 +1,517 @@
+"MDCat": [
+    "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "-xsi:noNamespaceSchemaLocation": "https://raw.githubusercontent.com/iqb-berlin/mdc-schemadefinition/master/mdc.xsd",
+    "-version": "1.0.3",
+    "Label": {
+      "-xml:lang": "de",
+      "#text": "Katalog der Copyright-Datenbank des IQB"
+    },
+    "Owner": [
+      {
+        "-xml:lang": "de",
+        "#text": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"
+      },
+      {
+        "-xml:lang": "en",
+        "#text": "IQB - Institute for Educational Quality Improvement"
+      }
+    ],
+    "License": "MIT",
+    "MDDef": [
+      {
+        "-id": "1",
+        "-type": "listmultiselect",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Typ des Objektes"
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        },
+        "TypeSpec": { "ListControl": "list" },
+        "Value": [
+          {
+            "-id": "1",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "Foto"
+            }
+          },
+          {
+            "-id": "2",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "Grafik/graf. Darstellung"
+            }
+          },
+          {
+            "-id": "3",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "Text"
+            }
+          },
+          {
+            "-id": "4",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "Audio"
+            }
+          },
+          {
+            "-id": "5",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "Daten"
+            }
+          }
+        ]
+      },
+      {
+        "-id": "2",
+        "-type": "date",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Ablauf Nutzungslizenz"
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        }
+      },
+      {
+        "-id": "3",
+        "-type": "textde",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Quelle Erstangabe"
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        },
+        "TypeSpec": { "MultiLineText": "true" }
+      },
+      {
+        "-id": "4",
+        "-type": "textde",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Hinweise Auftraggeber/Projekte"
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        },
+        "TypeSpec": { "MultiLineText": "true" }
+      },
+      {
+        "-id": "5",
+        "-type": "listsingleselect",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Einschätzung Kosten"
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "12"
+          }
+        },
+        "TypeSpec": { "ListControl": "list" },
+        "Value": [
+          {
+            "-id": "1",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "gering"
+            }
+          },
+          {
+            "-id": "2",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "mittel"
+            }
+          },
+          {
+            "-id": "3",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "hoch"
+            }
+          },
+          {
+            "-id": "4",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "unverschämt"
+            }
+          }
+        ]
+      },
+      {
+        "-id": "6",
+        "-type": "listsingleselect",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Rolle"
+        },
+        "Description": {
+          "-xml:lang": "de",
+          "#text": "beschreibt die Funktion dieser Person/Institution für den Fall"
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "10"
+          }
+        },
+        "TypeSpec": { "ListControl": "list" },
+        "Value": [
+          {
+            "-id": "1",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "Urheber"
+            }
+          },
+          {
+            "-id": "2",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "Vermittler"
+            }
+          },
+          {
+            "-id": "3",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "Rechteverwerter"
+            }
+          }
+        ]
+      },
+      {
+        "-id": "7",
+        "-type": "listmultiselect",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Rechtetyp"
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        },
+        "TypeSpec": { "ListControl": "list" },
+        "Value": [
+          {
+            "-id": "1",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "Urheber"
+            }
+          },
+          {
+            "-id": "2",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "Nutzungsrecht Bild"
+            }
+          },
+          {
+            "-id": "3",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "Nutzungsrecht Audio"
+            }
+          },
+          {
+            "-id": "4",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "?Hallo?"
+            }
+          }
+        ]
+      },
+      {
+        "-id": "8",
+        "-type": "textde",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Quelle geprüft"
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        },
+        "TypeSpec": { "MultiLineText": "true" }
+      },
+      {
+        "-id": "9",
+        "-type": "date",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Prüftermin"
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        }
+      },
+      {
+        "-id": "10",
+        "-type": "listmultiselect",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Erteilte Rechte"
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        },
+        "TypeSpec": { "ListControl": "list" },
+        "Value": [
+          {
+            "-id": "1",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "Print/Abdruck"
+            }
+          },
+          {
+            "-id": "2",
+            "Label": {
+              "-xml:lang": "de",
+              "#text": "Online"
+            }
+          }
+        ]
+      },
+      {
+        "-id": "11",
+        "-type": "textde",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Vorklärung Kontakte"
+        },
+        "Description": {
+          "-xml:lang": "de",
+          "#text": "Urheber, Rechte-Inhaber o. ä. mit groben Kontaktdaten"
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        },
+        "TypeSpec": { "MultiLineText": "true" }
+      },
+      {
+        "-id": "12",
+        "-type": "textde",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Quelle - Änderungen"
+        },
+        "Description": {
+          "-xml:lang": "de",
+          "#text": "jede Änderung am Original aufführen, z. B. Kürzung, Rechtschreibung, Umformulierung usw.."
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        },
+        "TypeSpec": { "MultiLineText": "true" }
+      },
+      {
+        "-id": "13",
+        "-type": "folderlink",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Ablageverzeichnis"
+        },
+        "Description": {
+          "-xml:lang": "de",
+          "#text": "Ort auf P:, in dem die Dateien zum Fall liegen"
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        }
+      },
+      {
+        "-id": "14",
+        "-type": "textde",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Ergänzende Kontakte"
+        },
+        "Description": {
+          "-xml:lang": "de",
+          "#text": "Liste von anderen Kontakten, die neben den Rechte-Kontakten für diesen Fall relevant sind."
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        },
+        "TypeSpec": { "MultiLineText": "true" }
+      },
+      {
+        "-id": "15",
+        "-type": "textde",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Veränderungen"
+        },
+        "Description": {
+          "-xml:lang": "de",
+          "#text": "Beschreibt die Veränderungen, die am IQB an der Quelle vorgenommen wurden."
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        },
+        "TypeSpec": { "MultiLineText": "true" }
+      },
+      {
+        "-id": "16",
+        "-type": "filelink",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Vertragsdokument"
+        },
+        "Description": {
+          "-xml:lang": "de",
+          "#text": "Dokument, in dem die vertraglichen balh"
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        }
+      },
+      {
+        "-id": "17",
+        "-type": "filelink",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Dokument Auftraggeber/in"
+        },
+        "Description": {
+          "-xml:lang": "de",
+          "#text": "Ein Link zu einem Dokument, das wichtige ergänzende Informationen zum Fall enthält."
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        }
+      },
+      {
+        "-id": "18",
+        "-type": "textde",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Nutzungsvermerk Auflage"
+        },
+        "Description": {
+          "-xml:lang": "de",
+          "#text": "Auflage des Rechteinhabers, wie Quelle angegeben werden muss"
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        },
+        "TypeSpec": { "MultiLineText": "true" }
+      },
+      {
+        "-id": "20",
+        "-type": "textde",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Bestätigter Nutzungszeitraum"
+        },
+        "Description": {
+          "-xml:lang": "de",
+          "#text": "Zeitraum, für den die Rechte eingeräumt wurden"
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        },
+        "TypeSpec": { "MultiLineText": "true" }
+      },
+      {
+        "-id": "21",
+        "-type": "textde",
+        "Label": {
+          "-xml:lang": "de",
+          "#text": "Kosten"
+        },
+        "Description": {
+          "-xml:lang": "de",
+          "#text": "vorläufig kalkulierte Beträge"
+        },
+        "MDDefMetadata": {
+          "MD": {
+            "-cat": "DOI:10.5159/IQB_MDR_Core_v1",
+            "-def": "2",
+            "#text": "7"
+          }
+        },
+        "TypeSpec": { "MultiLineText": "true" }
+      }
+    ]
+]
