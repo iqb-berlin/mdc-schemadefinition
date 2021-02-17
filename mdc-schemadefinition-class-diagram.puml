@@ -1,0 +1,82 @@
+@startuml
+skinparam classAttributeIconSize 0
+class MDCat{
+  +Label : String [1..*]
+  +Description : String [0..*]
+  +Owner : String [1..*]
+  +License: String [0..*] / [*]
+  +MDDef : MDDef [1..*]
+  +id: String [1]
+  +version : String [1]
+  +versionHistory : String
+}
+
+class MDDef{
+  Label : String [1..*]
+  Description : String [0..*]
+  MDDefMetadata : MetaDataListType [0..*]
+  TypeSpec : TypeSpec [0..*]
+  DefaultValue : String [0..*]
+  Value : String [0..*]
+  id: nonNegativeInteger [1]
+  type : Type [0..1]
+}
+
+class TypeSpec <<enumeration>>{
+  Min : String [0..1]
+  Max : String [0..1]
+  Languages : String [0..1]
+  Digits : nonNegativeInteger [0..1]
+  MultiLineText : Boolean [0..1]
+  Seconds : Boolean [0..1]
+  ListControl : ListControl [0..1]
+}
+
+class Value{
+  Label : String [0..*]
+  Description : String [0..*]
+  ID : nonNegativeInteger [1]
+  taxpos: String [0..*]
+}
+
+class ListControl <<enumeration>>{
+  List : String [0..1]
+  Float : String [0..1]
+  Combobox : String [0..1]
+  Expandable : String [0..1]
+}
+
+class MetaDataListType {
+  MD : MetaDataType [0..*]
+}
+
+class MetaDataType {
+  Cat : String [1]
+  Def : nonNegativeInteger [1]
+}
+
+class Type <<enumeration>>{
+  integer : String [0..1]
+  decimal : String [0..1]
+  textde : String  [0..1]
+  textMultiLang : String [0..1]
+  date : String [0..1]
+  fileLink : String [0..1]
+  folderLink : String [0..1]
+  boolean : String [0..1]
+  listSingleSelect : String [0..1]
+  listMultiSelect: String [0..1]
+  metadataSet : String [0..1]
+  taxonomy : String [0..1]
+}
+
+MDCat "1" *-- "1..*" MDDef
+MDDef "1" *-- "1..*" Value
+MDDef::MDDefMetadata o-- MetaDataListType
+MetaDataListType *-- MetaDataType
+TypeSpec::ListControl "1" *-- "1" ListControl : valid values
+MDDef::type "0..1" *-- "1" Type : valid values
+
+
+MDDef::TypeSpec *-- TypeSpec : valid values
+@enduml
