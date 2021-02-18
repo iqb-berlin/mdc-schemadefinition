@@ -1,0 +1,236 @@
+{
+    "MDCat": {
+        "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "xsi:noNamespaceSchemaLocation": "https://raw.githubusercontent.com/iqb-berlin/mdc-schemadefinition/master/mdc.xsd",
+        "id": "DOI:10.5159/IQB_MDR_Core_v1",
+        "version": "1.0.0",
+        "versionhistory": "DOI:10.5159/IQB_MDR_Core_VH",
+        "Label": [
+            {
+                "xml:lang": "de",
+                "text": "Katalog für Metadaten eines IQB-Katalogs bzw. IQB-Metadatendefinitionen"
+            },
+            {
+                "xml:lang": "en",
+                "text": "Catalog for metadata used in IQB-catalogs or IQB-metadata definitions"
+            }
+        ],
+        "Description": {
+            "xml:lang": "de",
+            "text": "Über diese Definitionen erfolgt vor allem die Filterung von Merkmalen, damit bestimmte Merkmale nur\n    für bestimmte Anwendungsfälle bzw. Datenobjekte bereitgestellt werden."
+        },
+        "Owner": [
+            {
+                "xml:lang": "de",
+                "text": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"
+            },
+            {
+                "xml:lang": "en",
+                "text": "IQB - Institute for Educational Quality Improvement"
+            }
+        ],
+        "License": "MIT",
+        "MDDef": [
+            {
+                "id": "1",
+                "type": "listmultiselect",
+                "Label": [
+                    {
+                        "xml:lang": "de",
+                        "text": "Inhaltlicher Bezug"
+                    },
+                    {
+                        "xml:lang": "en",
+                        "text": "Subject"
+                    }
+                ],
+                "Value": [
+                    {
+                        "id": "1",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Deutsch Primarstufe"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Deutsch Sek1"
+                        }
+                    },
+                    {
+                        "id": "3",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Deutsch VERA6"
+                        }
+                    },
+                    {
+                        "id": "4",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Englisch Sek1"
+                        }
+                    },
+                    {
+                        "id": "5",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Forschungsdaten"
+                        }
+                    },
+                    {
+                        "id": "6",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Französisch Sek1"
+                        }
+                    },
+                    {
+                        "id": "7",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Mathematik Primarstufe"
+                        }
+                    },
+                    {
+                        "id": "8",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Mathematik Sek1"
+                        }
+                    },
+                    {
+                        "id": "9",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Naturwissenschaften Sek1"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "type": "listmultiselect",
+                "Label": [
+                    {
+                        "xml:lang": "de",
+                        "text": "Gültigkeitsbereich"
+                    },
+                    {
+                        "xml:lang": "en",
+                        "text": "Scope"
+                    }
+                ],
+                "Value": [
+                    {
+                        "id": "1",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Antrag"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Antragsteller/in"
+                        }
+                    },
+                    {
+                        "id": "3",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Aufbereitung/Bewertung"
+                        }
+                    },
+                    {
+                        "id": "4",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Aufgabe"
+                        }
+                    },
+                    {
+                        "id": "5",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Datensatz"
+                        }
+                    },
+                    {
+                        "id": "6",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Erhebung"
+                        }
+                    },
+                    {
+                        "id": "7",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Fall"
+                        }
+                    },
+                    {
+                        "id": "8",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Freigabe"
+                        }
+                    },
+                    {
+                        "id": "9",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Instrument"
+                        }
+                    },
+                    {
+                        "id": "10",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Kontakt"
+                        }
+                    },
+                    {
+                        "id": "11",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Item"
+                        }
+                    },
+                    {
+                        "id": "12",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Person"
+                        }
+                    },
+                    {
+                        "id": "13",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Projekt"
+                        }
+                    },
+                    {
+                        "id": "14",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Studie"
+                        }
+                    },
+                    {
+                        "id": "15",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "Antragsinhalt"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

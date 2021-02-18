@@ -1,28 +1,17 @@
 ---
 
 layout: default
+title: Homepage
 
 ---
 
+<h1>{{page.title}}</h1>
 
-<h1>MDC-Copyright</h1>
+Die folgenden Metadaten Kataloge sind hier verfügbar:
 
-<p>
-  Es folgen die Metadaten Definitionen des MDC-Copyright Kataloges:
-  {% for mddef in site.data.mdc-copyright.MDCat %}
-    {% for def in mddef.MDDef %}
-      <p>
-        id: {{def.-id}} <br>
-        Label: {{def.Label}} <br>
-        MDDefMetadata: {{def.MDDefMetadata}} <br>
-        type: {{def.-type}} <br>
-        {% if def.TypeSpec != nil %}
-        typeSpec: {{def.TypeSpec}} <br />
-        {% endif %}
-        {% if def.Value != nil %}
-        Value: {{def.Value}}
-        {% endif %}
-      </p>
-    {% endfor %}
-  {% endfor %}
-</p>
+<ul>
+  <li> <a href="{{site.baseurl}}/mdc-copyright.html">MDC Copyright</a></li>
+  <li> <a href="{{site.baseurl}}/mdc-educational.html">MDC Educational</a></li>
+  <li> <a href="{{site.baseurl}}/mdc-core.html">MDC Core</a></li>
+  <li> <a href="{{site.baseurl}}/mdc-fdz.html">MDC fdz</a></li>
+</ul>

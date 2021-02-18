@@ -1,0 +1,31 @@
+<p>
+
+  id: {{def.id}} <br />
+
+  Das Label der Metadaten Definition ist: <br>
+  Label: {{def.Label}} <br />
+
+  {% if def.MDDefMetaData != nil %}
+  Es sind folgende Metadaten über die Metadaten Definitionen verfügbar: <br />
+  MDDefMetaData: {{def.MDDefMetaData}} <br />
+  {% endif %}
+
+  {% if def.type != nil %}
+      type: {{def.type}} <br>
+  {% endif %}
+
+  {% if def.TypeSpec != nil %}
+  typeSpec: {{def.TypeSpec}} <br />
+  {% endif %}
+
+  {% for value in def.Value %}
+    {% if value != nil %}
+    Die folgenden Werte sind erlaubt: <br />
+      Value id : {{value.id}} <br />
+      Value Label : {{value.Label}} <br />
+    {% endif %}
+  {% endfor %}
+
+</p>
+
+_______________

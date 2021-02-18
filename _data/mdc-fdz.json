@@ -1,0 +1,4303 @@
+{
+    "MDCat": {
+        "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "xsi:noNamespaceSchemaLocation": "https://raw.githubusercontent.com/iqb-berlin/mdc-schemadefinition/master/mdc.xsd",
+        "id": "",
+        "version": "1.0.0",
+        "versionhistory": "",
+        "Label": {
+            "xml:lang": "de",
+            "text": "Katalog des IQB für Forschungsdaten"
+        },
+        "Owner": {
+            "xml:lang": "de",
+            "text": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"
+        },
+        "License": "CC BY-SA 4.0",
+        "MDDef": [
+            {
+                "id": "2",
+                "type": "listmultiselect",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Auftraggeber / Mittelgeber"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "! Achtung: uns ist wohl bewusst, dass das zwei unterschiedliche Sachen sind, die hier erhoben werden; aber der Datensparsamkeit geschuldet, dass nur ein Feld; bei den FDB-Studien meist Mittelgeber; bei den FDZ-Studien meist Auftraggeber"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                },
+                "TypeSpec": {
+                    "ListControl": "expandable"
+                },
+                "Value": [
+                    {
+                        "id": "1",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Bundesministerium für Bildung und Forschung (BMBF)"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Federal Ministry of Education and Research"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Deutsche Forschungsgemeinschaft (DFG)"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "German Research Foundation (DFG)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Kultusministerkonferenz (KMK)"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Standing Conference of the Ministers of Education and Cultural Affairs of the Länder in the Federal Republic of Germany"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Senatsverwaltung für Bildung, Jugend und Sport des Landes Berlin"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Senate Department for Education, Youth and Sport of the State of Berlin"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Ministerium für Bildung, Wissenschaft, Jugend und Kultur des Landes Rheinland-Pfalz"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Rhineland-Palatinate Ministry of Education, Research, Youth, and Culture"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Organisation für wirtschaftliche Zusammenarbeit und Entwicklung (OECD)"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Organization for Economic Cooperation and Development (OECD)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Ministerium für Bildung, Jugend und Sport des Landes Brandenburg"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Brandenburg Ministry of Education, Youth, and Sport"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "International Association for the Evaluation of Educational Achievement (IEA)"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "International Association for the Evaluation of Educational Achievement (IEA)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Otto-Friedrich-Universität Bamberg"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "University Bamberg"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Europäischer Sozialfonds (ESF)"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "The European Social Fund (ESF)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "11",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Europäische Union"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "European Union"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "12",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Träger Arbeit-Schule-Integrations-Gesellschaft e. V"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Arbeit-Schule-Integrations-Gesellschaft e. V"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Ministerium für Kinder, Familie, Flüchtlinge und Integration des Landes NRW (ehemals: Ministerium für Familie, Kinder, Jugend, Kultur und Sport)"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Ministry for Children, Family, Refugees and Integration of the Federal State of NRW"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "14",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Leibniz-Gemeinschaft"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Leibniz Association"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Behörde für Schule und Berufsbildung der Freien und Hansestadt Hamburg (BSB)"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Authority for Schools and Vocational Training of the Free and Hanseatic City of Hamburg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "type": "listmultiselect",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Region"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "=Untersuchungsgebiet"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                },
+                "TypeSpec": {
+                    "ListControl": "expandable"
+                },
+                "Value": [
+                    {
+                        "id": "1",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "deutschlandweit"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Germany"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Baden-Württemberg"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Baden-Wuerttemberg"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Bayern"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Bavaria"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Berlin"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Berlin"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Brandenburg"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Brandenburg"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Bremen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Bremen"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Hamburg"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Hamburg"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Hessen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Hesse"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Mecklenburg-Vorpommern"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Mecklenburg-Western Pomerania"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Niedersachsen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Lower Saxony"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "11",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Nordrhein-Westfalen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "North Rhine-Westphalia"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "12",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Rheinland-Pfalz"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Rhineland-Palatinate"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Saarland"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Saarland"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "14",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Sachsen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Saxony"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Sachsen-Anhalt"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Saxony-Anhalt"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "16",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Schleswig-Holstein"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Schleswig-Holstein"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "17",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Thüringen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Thuringia"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "5",
+                "type": "listmultiselect",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Kontextfragebögen für"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "=Analyseeinheit"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                },
+                "TypeSpec": {
+                    "ListControl": "expandable"
+                },
+                "Value": [
+                    {
+                        "id": "9",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Auszubildende"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Trainees"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Behörden"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Authorities"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "16",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Berufsanfänger*innen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Career Starters"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "24",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Betriebe"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Companies"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Eltern"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Parents"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "21",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Erwachsene"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Adults"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "17",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Hochschulabsolvent*innen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "University Graduates"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "18",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Jugendliche"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Teenagers"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Kindergartenkinder"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Kindergarten Children"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Lehrkräfte"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Teachers"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "pädagogisches Personal"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Educational Staff"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "25",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Promotionsberechtigte"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Persons Qualified for Promotion"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "22",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Promovierende"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Doctoral Students"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Referendar*innen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Preservice Teachers"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "1",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Schüler*innen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Students"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "19",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Schulabgänger*innen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "School Leavers"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "12",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Schulen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Schools"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Schulleitung"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Principals"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "23",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Studienzugangsberechtigte"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Persons Qualified for University"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "14",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Studierende"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "College Students"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Vorschulkinder"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Preschool Children"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "20",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "wissenschaftliches Personal"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Academic Staff"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Sonstiges"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Other"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "6",
+                "type": "listmultiselect",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Datentyp"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "https://mdr.iqb.hu-berlin.de//catalog/5c4748e0-bcaa-c3c3-e5af-dd481fddbf0c"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "6"
+                    }
+                },
+                "TypeSpec": {
+                    "ListControl": "list"
+                },
+                "Value": [
+                    {
+                        "id": "1",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Umfragedaten"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Daten aus Kompetenz- und Leistungsmessungen"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Qualitatives Datenmaterial"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Anderweitige Datentypen"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "8",
+                "type": "listmultiselect",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Erhebungsverfahren"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "https://mdr.iqb.hu-berlin.de//catalog/a1fb802d-6075-d123-1f26-6eb9f20d9984"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "9"
+                    }
+                },
+                "TypeSpec": {
+                    "ListControl": "expandable"
+                },
+                "Value": [
+                    {
+                        "id": "1",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Interview"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Interview"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Interview: Persönliches Interview"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Interview: Face-to-face interview"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Interview: Persönliches Interview: CAPI (Computerunterstützte persönliche Befragung)/CAMI (Computerunterstützte mobile Befragung)"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Interview: Face-to-face interview: CAPI (Computer Assisted Personal Interview)/CAMI (Computer Assisted Mobile Interview)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "34",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Interview: Persönliches Interview: PAPI (Papierfragebogen)"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Interview: Face-to-face interview: PAPI (Paper and Pencil Interview)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Interview: Telefonisches Interview"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Interview: Telephone interview"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Interview: Telefonisches Interview: CATI (Computerunterstützte telefonische Befragung)"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Interview: Telephone interview: CATI (Computer Assisted Telephone Interview)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Interview: E-mail Interview"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Interview: E-mail interview"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "43",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Interview: Web-basiertes Interview"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Interview: Web-based interview"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Eigenständig auszufüllender Fragebogen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Self-administered questionnaire"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "35",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Eigenständig auszufüllender Fragebogen: E-mail"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Self-administered questionnaire: E-Mail"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Eigenständig auszufüllender Fragebogen: Papier"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Self-administered questionnaire: Paper"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "36",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Eigenständig auszufüllender Fragebogen: SMS/MMS"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Self-administered questionnaire: SMS/MMS"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Eigenständig auszufüllender Fragebogen: CAWI (Computerunterstütztes Web-Interview)"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Self-administered questionnaire: CAWI (Computer Assisted Web Interview)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Eigenständig auszufüllender Fragebogen: CASI (Computerunterstützte Selbstbefragung)"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Self-administered questionnaire: CASI (Computer Assisted Self-Interview)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "23",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Fokusgruppe"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Focus group"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "37",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Eigenständig durchgeführte schriftliche Aufzeichnung und/oder Tagebücher"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Self-administered writings and/or diaries"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "18",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Beobachtung"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Observation"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "19",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Beobachtung: Feldbeobachtung"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Observation: Field"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "21",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Beobachtung: Feldbeobachtung (Teilnehmend)"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Observation: Participant field observation"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "25",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Beobachtung: Feldbeobachtung (Nicht-teilnehmend)"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Observation: Non-participant field observation"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "20",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Beobachtung: Laborbeobachtung"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Observation: Laboratory observation"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "42",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Beobachtung: Laborbeobachtung (Teilnehmend)"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Observation: Participant laboratory observation"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "44",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Beobachtung: Laborbeobachtung (Nicht-teilnehmend)"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Observation: Non-participant laboratory observation"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "38",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Beobachtung: Computerbasierte Beobachtung"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Observation: Computer-based observation"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "26",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Messungen und Tests"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Measurements and tests"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "27",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Messungen und Tests: Leistungs- und Kompetenztests"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Measurements and tests: Educational measurements and tests"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "28",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Messungen und Tests: Leistungs- und Kompetenztest - Paper and Pencil Test"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Measurements and tests: Educational measurements and tests - Paper & pencil test"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "29",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Messungen und Tests: Leistungs- und Kompetenztest - Computerbasierter Test"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Measurements and tests: Educational measurements and tests - Computer assisted test"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "32",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Messungen und Tests: Physische Tests"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Measurements and tests: Physical measurements and tests"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "30",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Messungen und Tests: Psychologische Tests"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Measurements and tests: Psychological measurements and tests"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "31",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Messungen und Tests: Psychologische Tests - Paper and Pencil Test"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Measurements and tests: Physical measurements and tests - Paper & pencil test"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "33",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Messungen und Tests: Psychologische Tests - Computerbasierter Test"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Measurements and tests: Psychological measurements and tests - Computer assisted test"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "12",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Inhaltscodierung"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Content Coding"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Transkription"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Transcription"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "14",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Kompilation"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Compilation"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Synthese"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Synthesis"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "39",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Zusammenfassung"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Summary"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "40",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Aggregation"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Aggregation"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "41",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Simulation"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Simulation"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "24",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Sonstiges"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Other"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "9",
+                "type": "listmultiselect",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Verfügbarkeit"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                },
+                "TypeSpec": {
+                    "ListControl": "list"
+                },
+                "Value": [
+                    {
+                        "id": "2",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "SUF: Lieferbar für Re- und Sekundäranalysen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Delivery for re- and secondary analysis"
+                            }
+                        ],
+                        "Description": {
+                            "xml:lang": "de",
+                            "text": "bei da I ra ist das Ziffer 2"
+                        }
+                    },
+                    {
+                        "id": "7",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "SUF: Lieferbar nur noch für Reanalysen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Delivery (only for re-analysis)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "SUF: Beantragung nötig: https://www.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Application required: https://www.iqb.hu-berlin.de/fdz/Datenzugang/SUF-Antrag"
+                            }
+                        ],
+                        "Description": {
+                            "xml:lang": "de",
+                            "text": "bei da I ra wird die Info in ein Freitextfeld geschrieben"
+                        }
+                    },
+                    {
+                        "id": "8",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "CF: Downloadbar"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Download"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "CF: Beantragung nötig: https://www.iqb.hu-berlin.de/fdz/Datenzugang/CF-Antrag"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Application requiered: https://www.iqb.hu-berlin.de/fdz/Datenzugang/CF-Antrag"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Nicht verfügbar"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Not available"
+                            }
+                        ],
+                        "Description": {
+                            "xml:lang": "de",
+                            "text": "bei da I ra ist das Ziffer 4"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "10",
+                "type": "listmultiselect",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Auswahlverfahren / Sampling Method"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "https://mdr.iqb.hu-berlin.de//catalog/1d791cc7-6d8d-dd35-b1ef-0eec9c31bbb5"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                },
+                "TypeSpec": {
+                    "ListControl": "expandable"
+                },
+                "Value": [
+                    {
+                        "id": "2",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Vollerhebung"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Complete Enumeration"
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "xml:lang": "de"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Wahrscheinlichkeitsauswahl"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Probability Sample"
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "xml:lang": "de"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Wahrscheinlichkeitsauswahl: Einfache Zufallsauswahl"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Probability Sample: Simple Random Sample"
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "xml:lang": "de"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Wahrscheinlichkeitsauswahl: Systematische Zufallsauswahl"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Probability Sample: Systematic Random Sample"
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "xml:lang": "de"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Wahrscheinlichkeitsauswahl: Geschichtete Zufallsauswahl"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Probability Sample: Stratified Sample"
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "xml:lang": "de"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Wahrscheinlichkeitsauswahl: Proportional geschichtete Zufallsauswahl"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Probability Sample: Proportionate Stratified Sample"
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "xml:lang": "de"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Wahrscheinlichkeitsauswahl: Disproportional geschichtete Zufallsauswahl"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Probability Sample: Disproportionate Stratified Sample"
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "xml:lang": "de"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "12",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Wahrscheinlichkeitsauswahl: Klumpenauswahl"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Probability Sample: Cluster Sample"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Wahrscheinlichkeitsauswahl: Einfache Klumpenauswahl"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Probability Sample: Simple Cluster Sample"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Wahrscheinlichkeitsauswahl: Geschichtete Klumpenauswahl"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Probability Sample: Stratified Cluster Sample"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "16",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Wahrscheinlichkeitsauswahl: Mehrstufige Zufallsauswahl"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Probability Sample: Multistage Sample"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "26",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Nicht-Wahrscheinlichkeitsauswahl"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Non-probability Sample"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "45",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Nicht-Wahrscheinlichkeitsauswahl: Willkürliche Auswahl"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Non-Probability Sample: Availability Sample"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "43",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Nicht-Wahrscheinlichkeitsauswahl: Bewusste Auswahl"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Non-Probability Sample: Purposive Sample"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "44",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Nicht-Wahrscheinlichkeitsauswahl: Quotenstichprobe"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Non-Probability Sample: Quota Sample"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "46",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Nicht-Wahrscheinlichkeitsauswahl: Respondenten-gesteuerte Auswahl"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Non-Probability Sample: Respondent-assisted Sample"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "47",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Kombination aus Wahrscheinlichkeit- und Nicht-Wahrscheinlichkeitsauswahl"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Mixed probability and non-probability Sample"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "48",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Andere"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Other"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "49",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Keine Angabe"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Not Given"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "13",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Alternativtitel"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "wenn vorhanden"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "13 14"
+                    }
+                }
+            },
+            {
+                "id": "22",
+                "type": "date",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Studienbeginn"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                }
+            },
+            {
+                "id": "23",
+                "type": "date",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Studienende"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                }
+            },
+            {
+                "id": "24",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Verwandte Studien"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                }
+            },
+            {
+                "id": "25",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Bericht zur Studie"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "wenn vorhanden hier angeben"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                }
+            },
+            {
+                "id": "26",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Archivierende Einrichtung"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "=FDZ am IQB/FDZ at IQB"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "28",
+                "type": "date",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Erhebungsbeginn"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "6"
+                    }
+                }
+            },
+            {
+                "id": "29",
+                "type": "date",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Erhebungsende"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "6"
+                    }
+                }
+            },
+            {
+                "id": "30",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Verknüpfungsvariable"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "6"
+                    }
+                }
+            },
+            {
+                "id": "31",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Link zur Studie"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Projekt-Webseite"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                }
+            },
+            {
+                "id": "34",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Region sonstiges"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "=Untersuchungsgebiet sonstiges: Freitextfeld für weitere geografische Angaben, z. B. Städte, Regionen, Landstriche, außerhalb DE"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                }
+            },
+            {
+                "id": "35",
+                "type": "textmultilang",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Testpopulation"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Angabe der Grundgesamtheit"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                },
+                "TypeSpec": {
+                    "Languages": "de en",
+                    "MultiLineText": "true"
+                }
+            },
+            {
+                "id": "37",
+                "type": "date",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "verfügbar seit"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "=Veröffentlichungsdatum: seit wann sind die Daten zur Nachnutzung bereitgestellt; auf Website MM/JJJJ"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "38",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Erhebungsdesign sonstiges"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "=Untersuchungsdesign sonstiges; Freitextfeld für weitere Designs, auch f. da I ra zu benutzen"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                }
+            },
+            {
+                "id": "40",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Anmerkungen"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "6 13 14"
+                    }
+                }
+            },
+            {
+                "id": "41",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Rechte Metadaten"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Angaben zu den Rechten an den / für die Metadaten"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "42",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Beschreibungstyp"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Typ der Studienbeschreibung; für da|ra-Export relevant"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                },
+                "Value": [
+                    {
+                        "id": "1",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "1 Zusammenfassung / Abstract"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "2 Informationen zur Serie / SeriesInformation"
+                        }
+                    },
+                    {
+                        "id": "3",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "3 Inhaltsverzeichnis / TableOfContents"
+                        }
+                    },
+                    {
+                        "id": "4",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "4 Methoden / Methods"
+                        }
+                    },
+                    {
+                        "id": "5",
+                        "Label": {
+                            "xml:lang": "de",
+                            "text": "5 Sonstiges / Others"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "43",
+                "type": "listsingleselect",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Datenformat"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "für da|ra-Export relevant"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "6"
+                    }
+                },
+                "TypeSpec": {
+                    "ListControl": "list"
+                },
+                "Value": [
+                    {
+                        "id": "1",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Sammlung"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Collection"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Datensatz"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Dataset"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Text"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Text"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Software"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Software"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Bild"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Image"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Audiovisuell"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Audiovisual"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Interaktive Ressource"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Interactive Resource"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Event"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Event"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Modell"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Model"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Physikalisches Objekt"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Physical Object"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "11",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Service"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Service"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "12",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Sound"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Sound"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Workflow"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Workflow"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "14",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Data Paper"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Data Paper"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Andere"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Other"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "47",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Erhebungszeitraum sonstiges"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "wenn nur Jahreszahl vorhanden ist"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "6"
+                    }
+                }
+            },
+            {
+                "id": "48",
+                "type": "listsingleselect",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Bewertung Inhaltlicher Scope"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "ListControl": "float"
+                },
+                "Value": [
+                    {
+                        "id": "1",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "A"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "B"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "C"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "D"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "49",
+                "type": "listsingleselect",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Bewertung Rechtliche Anforderungen"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "ListControl": "float"
+                },
+                "Value": [
+                    {
+                        "id": "1",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "A"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "xml:lang": "de"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "B"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "xml:lang": "de"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "C"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "xml:lang": "de"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "D"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "xml:lang": "de"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "50",
+                "type": "listsingleselect",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Bewertung Technische Anforderungen"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "ListControl": "float"
+                },
+                "Value": [
+                    {
+                        "id": "1",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "A"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "xml:lang": "de"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "B"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "xml:lang": "de"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "C"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "xml:lang": "de"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "D"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "xml:lang": "de"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "51",
+                "type": "listsingleselect",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Bewertung Dokumentarische Anforderungen"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "ListControl": "float"
+                },
+                "Value": [
+                    {
+                        "id": "1",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "A"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "B"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "C"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "D"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "52",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Bewertung gesamt"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                }
+            },
+            {
+                "id": "53",
+                "type": "date",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Sperrfrist - Datum"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "auch für FAMe/ML relevant: bis zu diesem Datum dürfen die Daten nicht bereitgestellt werden"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "56",
+                "type": "boolean",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Sperrvermerk/e"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "bei ja Häckchen setzen"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "57",
+                "type": "listsingleselect",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Beteiligung Datengeber"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                },
+                "TypeSpec": {
+                    "ListControl": "list"
+                },
+                "Value": [
+                    {
+                        "id": "1",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "nicht beteiligt"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Meldepflicht"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Vetorecht"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "58",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Datenrestriktion"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "auf gesamten Datensatz bezogen; keine zeitliche Komponente; Bsp.: Daten dürfen nie als Gesamtpaket ausgegeben werden"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "59",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Sperrvermerk/e - Erläuterung"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "für Angaben zu Sperrvermerken bei Variablen, bestimmten Fragestellungen; hier geht es um eine zeitliche Komponente; inhaltlich"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "64",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Bemerkungen"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "65",
+                "type": "integer",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Dokumentar: Dokumentation"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "Min": "0",
+                    "Seconds": "true"
+                }
+            },
+            {
+                "id": "66",
+                "type": "integer",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Dokumentar: Bereitstellung der Daten"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "Min": "0",
+                    "Seconds": "true"
+                }
+            },
+            {
+                "id": "67",
+                "type": "integer",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Dokumentar: Eingangskontrolle"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "Min": "0",
+                    "Seconds": "true"
+                }
+            },
+            {
+                "id": "68",
+                "type": "integer",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Dokumentar: Aufbereitung der Daten"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "Min": "0",
+                    "Seconds": "true"
+                }
+            },
+            {
+                "id": "69",
+                "type": "integer",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Dokumentar: Vertragliches (inkl. Komm. mit DG)"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "beinhaltet auch die Kommuniktaion mit dem DG"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "Min": "0",
+                    "Seconds": "true"
+                }
+            },
+            {
+                "id": "70",
+                "type": "textmultilang",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Zitationsvorschlag"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "des Datenpakets"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                },
+                "TypeSpec": {
+                    "Languages": "de en",
+                    "MultiLineText": "true"
+                }
+            },
+            {
+                "id": "71",
+                "type": "integer",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "wiMi: Eingangskontrolle"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "Min": "0",
+                    "Seconds": "true"
+                }
+            },
+            {
+                "id": "72",
+                "type": "integer",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "wiMi: Vertragliches"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "Min": "0",
+                    "Seconds": "true"
+                }
+            },
+            {
+                "id": "73",
+                "type": "integer",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "wiMi: Aufbereitung der Daten"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "Min": "0",
+                    "Seconds": "true"
+                }
+            },
+            {
+                "id": "74",
+                "type": "integer",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "wiMi: Bereitstellung der Daten"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "Min": "0",
+                    "Seconds": "true"
+                }
+            },
+            {
+                "id": "75",
+                "type": "integer",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "SHKs: Eingangskontrolle"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "BBN und Nachnutzungswürdigkeit bewerten"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "Min": "0",
+                    "Seconds": "true"
+                }
+            },
+            {
+                "id": "76",
+                "type": "integer",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "SHKs: Aufbereitung der Daten"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Feinprüfung, Konstrukterstellung, Vorarbeit für Dok. zur Datenaufbereitung, Syntax"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "Min": "0",
+                    "Seconds": "true"
+                }
+            },
+            {
+                "id": "77",
+                "type": "integer",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "SHKs: Dokumentation"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "FDZ-StudienDB und da I ra-MDS befüllen"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "Min": "0",
+                    "Seconds": "true"
+                }
+            },
+            {
+                "id": "78",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Auflagen"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Auflagen, die vom DG kommen; Bsp.: verpflichtende Zitation bestimmter Dokumente (wie Skalenhandbuch) und/oder Danksagung an xy"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "81",
+                "type": "textmultilang",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Stichprobe"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "der Primärerhebung; N="
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                },
+                "TypeSpec": {
+                    "Languages": "de en"
+                }
+            },
+            {
+                "id": "82",
+                "type": "textmultilang",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "erfasste Kompetenzen"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "für Anzeige auf Website"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                },
+                "TypeSpec": {
+                    "Languages": "de en",
+                    "MultiLineText": "true"
+                }
+            },
+            {
+                "id": "83",
+                "type": "boolean",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Sperrfrist"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                },
+                "Value": [
+                    {
+                        "id": "1",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "ja"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "xml:lang": "de"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "nein"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ],
+                        "Description": [
+                            {
+                                "xml:lang": "de"
+                            },
+                            {
+                                "xml:lang": "en"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "84",
+                "type": "date",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Stand Literaturverzeichnis IQB-Studien-Website"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Stand der Publikationsliste auf der Website"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "85",
+                "type": "date",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Stand Literaturverzeichnis citavi"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "87",
+                "type": "boolean",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Bildungsmonitoringstudie"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "88",
+                "type": "integer",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "wiMi: Dokumentation"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "Min": "0",
+                    "Seconds": "true"
+                }
+            },
+            {
+                "id": "89",
+                "type": "listmultiselect",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Erhebungsdesign (Time Method)"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "= Untersuchungsdesign; https://mdr.iqb.hu-berlin.de//catalog/56cc4164-6731-7d54-c97f-ad9bd24bf1b7"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                },
+                "TypeSpec": {
+                    "ListControl": "expandable"
+                },
+                "Value": [
+                    {
+                        "id": "1",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Längsschnitt"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Longitudinal"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Längsschnitt: Kohorten"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Longitudinal: Cohort/Event-based"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Längsschnitt Trend/Wiederholter Querschnitt"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Longitudinal: Trend/Repeated cross-section"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Längsschnitt: Panel"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Longitudinal: Panel"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Zeitreihen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Time series"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Querschnitt"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Cross-section"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Andere"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Other"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "90",
+                "type": "listmultiselect",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Forschungsdesign (Research Design)"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "https://mdr.iqb.hu-berlin.de//catalog/89724b81-2aab-d0dc-29ca-87f29b1c9e01"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                },
+                "TypeSpec": {
+                    "ListControl": "expandable"
+                },
+                "Value": [
+                    {
+                        "id": "1",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Experimentelles Design"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Experimental Design"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Quasi-Experimentelles Design"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Quasi-Experimental Design"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Beobachtungsdesign"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Oberservational Design"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Fallstudie"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Case Study Design"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Andere"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Other"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "93",
+                "type": "textmultilang",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "ReadMe IZA"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "hier sind die alle Materialien (also Datansatz/-sätze, Dokumentationsmaterialien) aufgelistet, die bei IZA-Files heraus gegeben werden (diese erscheinen im ReadMe IZA)"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                },
+                "TypeSpec": {
+                    "Languages": "de en",
+                    "MultiLineText": "true"
+                }
+            },
+            {
+                "id": "94",
+                "type": "textmultilang",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "ReadMe SUF"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "hier sind alle Materialien (also Datensatz/-sätze, Dokumentationsmaterialien) aufgelistet, die bei SUF heraus gegeben werden (diese erscheinen im ReadMe SUF)"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                },
+                "TypeSpec": {
+                    "Languages": "de en",
+                    "MultiLineText": "true"
+                }
+            },
+            {
+                "id": "95",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Kontaktperson"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Beschreibung"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "96",
+                "type": "integer",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "DM-Beratung"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Beratung zu Datenmanagement(plänen), EVEs und dergl. (vor Datenabgabe/-übermittlung)"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "3"
+                    }
+                },
+                "TypeSpec": {
+                    "Min": "0",
+                    "Seconds": "true"
+                }
+            },
+            {
+                "id": "97",
+                "type": "boolean",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Regionalkennziffern im Datensatz enthalten"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Beschreibung"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "98",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Anmerkung zu Regionaldaten"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Beschreibung"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "100",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "öffentlich auf Website IQB (Dateibezeichnung aufführen)"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Beschreibung"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "101",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Auslieferung nach Antragstellung (Dateibezeichnung aufführen)"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Beschreibung"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "102",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Auslieferung auf Anfrage (Dateibezeichnung aufführen)"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Beschreibung"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "103",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "nicht herauszugeben/nicht öffentlich verfügbar (Dateibezeichnung aufführen)"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Beschreibung"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "104",
+                "type": "boolean",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "neuartiger Ländervergleich möglich"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "mit diesen Daten ist ein neuartiger Ländervergleich möglich"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "105",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "neuartiger Ländervergleich - Erläuterung"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "107",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Dokumentation"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Link zum DaQS"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "14"
+                    }
+                }
+            },
+            {
+                "id": "108",
+                "type": "date",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "AIP in d. LZA d. CMS gegeben"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Archival Information Package (AIP) in die Langzeitarchivierung (LZA) des CMS gegeben"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "109",
+                "type": "textde",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "ID des AIP"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Beschreibung"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "8"
+                    }
+                }
+            },
+            {
+                "id": "110",
+                "type": "listsingleselect",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Erhebungseinheit"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "Beschreibung"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "9"
+                    }
+                },
+                "TypeSpec": {
+                    "ListControl": "expandable"
+                },
+                "Value": [
+                    {
+                        "id": "1",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Auszubildende"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Trainees"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Behörden"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Authorities"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Berufsanfänger*innen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Career Starters"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Betriebe"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Companies"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Eltern"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Parents"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Erwachsene"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Adults"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Hochschulabsolvent*innen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "University Graduates"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Jugendliche"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Teenagers"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Kindergartenkinder"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Kindergarten Children"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Lehrkräfte"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Teachers"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "11",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "pädagogisches Personal"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Educational Staff"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "12",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Promotionsberechtigte"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Persons Qualified for Promotion"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Promovierende"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Doctoral Students"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "14",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Referendar*innen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Preservice Teachers"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Schüler*innen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Students"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "16",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Schulabgänger*innen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "School Leavers"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "17",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Schulen"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Schools"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "18",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Schulleitung"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Principals"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "19",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Studienzugangsberechtigte"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Persons Qualified for University"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "20",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Studierende"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "College Students"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "21",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Vorschulkinder"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Preschool Children"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "22",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "wissenschaftliches Personal"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Academic Staff"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "23",
+                        "Label": [
+                            {
+                                "xml:lang": "de",
+                                "text": "Sonstiges"
+                            },
+                            {
+                                "xml:lang": "en",
+                                "text": "Others"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "111",
+                "type": "filelink",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Datensatzname"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "in welchem Datensatz befindet sich das Instrument"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "9"
+                    }
+                }
+            },
+            {
+                "id": "112",
+                "type": "filelink",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Datensatzname 2"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "in welchem weiteren Datensatz befindet sich das Instrument"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "9"
+                    }
+                }
+            },
+            {
+                "id": "113",
+                "type": "filelink",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Datensatzname 3"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "in welchem weiteren Datensatz befindet sich das Instrument"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "9"
+                    }
+                }
+            },
+            {
+                "id": "114",
+                "type": "filelink",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Datensatzname 4"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "in welchem weiteren Datensatz befindet sich das Instrument"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "9"
+                    }
+                }
+            },
+            {
+                "id": "115",
+                "type": "filelink",
+                "Label": {
+                    "xml:lang": "de",
+                    "text": "Datensatzname 5"
+                },
+                "Description": {
+                    "xml:lang": "de",
+                    "text": "in welchem weiteren Datensatz befindet sich das Instrument"
+                },
+                "MDDefMetadata": {
+                    "MD": {
+                        "cat": "DOI:10.5159/IQB_MDR_Core_v1",
+                        "def": "2",
+                        "text": "9"
+                    }
+                }
+            }
+        ]
+    }
+}

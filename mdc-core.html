@@ -1,0 +1,12 @@
+---
+
+layout: default
+title: MDC Core
+
+---
+
+{% include mdc-intro.html %}
+
+{% for def in site.data.mdc-core.MDCat.MDDef %}
+  {% include mdc-list-content.html %}
+{% endfor %}

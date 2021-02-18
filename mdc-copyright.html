@@ -1,0 +1,13 @@
+---
+
+layout: default
+title: MDC Copyright
+
+---
+
+
+{% include mdc-intro.html %}
+
+{% for def in site.data.mdc-copyright.MDCat.MDDef %}
+  {% include mdc-list-content.html %}
+{% endfor %}
