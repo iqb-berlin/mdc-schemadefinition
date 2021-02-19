@@ -1,1 +1,9 @@
-markdown: redcarpet
+#site settings
+author:
+  name: Huaning Yang
+  email: huaning.y@gmail.com
+
+description: MDC Playground
+
+plugins:
+  - jekyll-spaceship

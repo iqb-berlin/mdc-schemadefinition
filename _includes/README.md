@@ -1,14 +1,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # Metadaten als flexible Objekteigenschaften
-In Anwendungen mit einigermaßen umfangreichen Datenstrukturen 
+In Anwendungen mit einigermaßen umfangreichen Datenstrukturen
 möchte man möglichst flexibel Objekteigenschaften speichern.
-Außerdem möchte man über Anwendungsgrenzen hinweg Daten 
+Außerdem möchte man über Anwendungsgrenzen hinweg Daten
 austauschen, ohne stets Beschreibungsdaten mitliefern zu
-müssen. 
+müssen.
 
 Das IQB verwendet Metadatenkataloge, in denen die
-Metadaten definiert sind. Verschiedene Anwendungen greifen 
+Metadaten definiert sind. Verschiedene Anwendungen greifen
 darauf zu und erzeugen auf dieser Grundlage Eingabeformulare
 und Datenlisten usw. Jede Anwendung, die in importierten Daten
 Verweise auf diese Kataloge entdeckt, kann die Daten korrekt
@@ -22,14 +22,14 @@ beschreibt
  für einen Katalog beschreibt
 
 # Begriffe
-- Ein Metadatenkatalog MDC ist eine Sammlung von 
-Metadatendefinitionen MDD. 
-- Eine Metadatendefinition beschreibt den Typ und damit 
+- Ein Metadatenkatalog MDC ist eine Sammlung von
+Metadatendefinitionen MDD.
+- Eine Metadatendefinition beschreibt den Typ und damit
 mögliche Werte für eine Information. Sie legt die Bedeutung der Werte in Bezug auf ein Datenobjekt fest und sichert so die Übertragbarkeit der Information über Systemgrenzen hinweg.
 - Der Metadatenkatalog hat eine eindeutige ID.
 - Metadatendefinitionen haben eine ID, die innerhalb des Katalogs eindeutig ist.
 - Eine Metadatendefinition kann selbst Metadaten enthalten, die über einen anderen Metadatenkatalog definiert sind.
-- Für einen Metadatenkatalog können Metadaten festgelegt sein, die standardmäßig für die 
+- Für einen Metadatenkatalog können Metadaten festgelegt sein, die standardmäßig für die
 Defininitionen dieses Katalogs genutzt werden sollen.
 
 # Versionierung
@@ -39,4 +39,15 @@ Defininitionen dieses Katalogs genutzt werden sollen.
 - Die PATCH-Version wird erhöht, wenn kleinere Änderungen ohne Auswirkungen auf die existierenden Daten vorgenommen wurden.
 - In einem Katalog ist ein Verweis zu finden zu einer XML-Datei, die die Änderungen beschreibt. Dadurch kann jede Anwendung einen Dialog anbieten, mit dem Objektmetadaten auf neuere Katalogversionen gehoben werden können.
 
-Achtung: Die Versionierung befindet sich noch in der Erprobung.    
+Achtung: Die Versionierung befindet sich noch in der Erprobung.
+
+# Metadaten Kataloge
+Die folgenden Metadaten Kataloge sind hier verfügbar:
+- [MDC Copyright]({{site.baseurl}}/mdc-copyright.html)
+- [MDC Core]({{site.baseurl}}/mdc-core.html)
+- [MDC Educational Standards]({{site.baseurl}}/mdc-educational.html)
+- [MDC FDZ]({{site.baseurl}}/mdc-fdz.html)
+
+# Metadaten Schema
+Hier ist das Schema der Metadaten (xsd) als Klassendiagramm aufbereitet.
+![Klassendiagram](/assets/mdc_plantuml.png)

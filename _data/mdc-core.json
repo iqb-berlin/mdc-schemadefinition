@@ -7,25 +7,25 @@
         "versionhistory": "DOI:10.5159/IQB_MDR_Core_VH",
         "Label": [
             {
-                "xml:lang": "de",
+                "xmlLang": "de",
                 "text": "Katalog für Metadaten eines IQB-Katalogs bzw. IQB-Metadatendefinitionen"
             },
             {
-                "xml:lang": "en",
+                "xmlLang": "en",
                 "text": "Catalog for metadata used in IQB-catalogs or IQB-metadata definitions"
             }
         ],
         "Description": {
-            "xml:lang": "de",
+            "xmlLang": "de",
             "text": "Über diese Definitionen erfolgt vor allem die Filterung von Merkmalen, damit bestimmte Merkmale nur\n    für bestimmte Anwendungsfälle bzw. Datenobjekte bereitgestellt werden."
         },
         "Owner": [
             {
-                "xml:lang": "de",
+                "xmlLang": "de",
                 "text": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"
             },
             {
-                "xml:lang": "en",
+                "xmlLang": "en",
                 "text": "IQB - Institute for Educational Quality Improvement"
             }
         ],
@@ -36,11 +36,11 @@
                 "type": "listmultiselect",
                 "Label": [
                     {
-                        "xml:lang": "de",
+                        "xmlLang": "de",
                         "text": "Inhaltlicher Bezug"
                     },
                     {
-                        "xml:lang": "en",
+                        "xmlLang": "en",
                         "text": "Subject"
                     }
                 ],
@@ -48,63 +48,63 @@
                     {
                         "id": "1",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Deutsch Primarstufe"
                         }
                     },
                     {
                         "id": "2",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Deutsch Sek1"
                         }
                     },
                     {
                         "id": "3",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Deutsch VERA6"
                         }
                     },
                     {
                         "id": "4",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Englisch Sek1"
                         }
                     },
                     {
                         "id": "5",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Forschungsdaten"
                         }
                     },
                     {
                         "id": "6",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Französisch Sek1"
                         }
                     },
                     {
                         "id": "7",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Mathematik Primarstufe"
                         }
                     },
                     {
                         "id": "8",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Mathematik Sek1"
                         }
                     },
                     {
                         "id": "9",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Naturwissenschaften Sek1"
                         }
                     }
@@ -115,11 +115,11 @@
                 "type": "listmultiselect",
                 "Label": [
                     {
-                        "xml:lang": "de",
+                        "xmlLang": "de",
                         "text": "Gültigkeitsbereich"
                     },
                     {
-                        "xml:lang": "en",
+                        "xmlLang": "en",
                         "text": "Scope"
                     }
                 ],
@@ -127,105 +127,105 @@
                     {
                         "id": "1",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Antrag"
                         }
                     },
                     {
                         "id": "2",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Antragsteller/in"
                         }
                     },
                     {
                         "id": "3",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Aufbereitung/Bewertung"
                         }
                     },
                     {
                         "id": "4",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Aufgabe"
                         }
                     },
                     {
                         "id": "5",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Datensatz"
                         }
                     },
                     {
                         "id": "6",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Erhebung"
                         }
                     },
                     {
                         "id": "7",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Fall"
                         }
                     },
                     {
                         "id": "8",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Freigabe"
                         }
                     },
                     {
                         "id": "9",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Instrument"
                         }
                     },
                     {
                         "id": "10",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Kontakt"
                         }
                     },
                     {
                         "id": "11",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Item"
                         }
                     },
                     {
                         "id": "12",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Person"
                         }
                     },
                     {
                         "id": "13",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Projekt"
                         }
                     },
                     {
                         "id": "14",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Studie"
                         }
                     },
                     {
                         "id": "15",
                         "Label": {
-                            "xml:lang": "de",
+                            "xmlLang": "de",
                             "text": "Antragsinhalt"
                         }
                     }

@@ -1,15 +1,27 @@
 <p>
 
-  id: {{def.id}} <br />
+  <strong>id:</strong> {{def.id}} <br />
 
-  Das Label der Metadaten Definition ist: <br>
-  Label: {{def.Label}} <br />
+  <strong>Das Label der Metadaten Definition ist: </strong><br>
 
-  {% if def.MDDefMetaData != nil %}
-  Es sind folgende Metadaten über die Metadaten Definitionen verfügbar: <br />
-  MDDefMetaData: {{def.MDDefMetaData}} <br />
+  Label : {{def.Label}} <br />
+
+  {% if def.MDDefMetadata != nil %}
+  <strong>Es sind folgende Metadaten über die Metadaten Definitionen verfügbar:</strong> <br />
+    {% for cat in def.MDDefMetadata.MD.cat %}
+      cat: {{cat}} <br />
+    {% endfor %}
+
+    {% for def in def.MDDefMetadata.MD.def %}
+      def: {{def}} <br />
+    {% endfor %}
+
+    {% for text in def.MDDefMetadata.MD.text %}
+      text: {{text}} <br />
+    {% endfor %}
   {% endif %}
 
+  <strong>Folgende Type Informationen sind vorhanden:</strong> <br />
   {% if def.type != nil %}
       type: {{def.type}} <br>
   {% endif %}
@@ -18,11 +30,16 @@
   typeSpec: {{def.TypeSpec}} <br />
   {% endif %}
 
+  {% if def.Value != nil %}
+  <strong>Die folgenden Werte sind erlaubt: <br /></strong>
+  {% endif %}
   {% for value in def.Value %}
     {% if value != nil %}
-    Die folgenden Werte sind erlaubt: <br />
+
       Value id : {{value.id}} <br />
-      Value Label : {{value.Label}} <br />
+      {% for value_info in value.Label.text %}
+        Value Label: {{value_info}} <br />
+      {% endfor %}
     {% endif %}
   {% endfor %}
 
