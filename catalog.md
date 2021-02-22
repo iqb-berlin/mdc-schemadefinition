@@ -10,8 +10,10 @@ ID: 1, Datentyp: listmultiselect
 * K4 - Mathematische Darstellungen verwenden
 * K5 - Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen
 * K6 - Mathematisch kommunizieren
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 8 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br>## Bildungsstandards Ma allgemein Primar
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 8 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br> 
+## Bildungsstandards Ma allgemein Primar
 ## Educational Standards Mathematics Elementary
 
 ID: 2, Datentyp: listmultiselect
@@ -36,8 +38,10 @@ ID: 2, Datentyp: listmultiselect
 * 5.1 - für das Bearbeiten mathematischer Probleme geeignete Darstellungen entwickeln, auswählen und nutzen
 * 5.2 - eine Darstellung in eine andere übertragen
 * 5.3 - Darstellungen miteinander vergleichen und bewerten
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 7 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 11 <br>## Bildungsstandards Ma inhaltsbezogen Primar
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 7 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 11 <br> 
+## Bildungsstandards Ma inhaltsbezogen Primar
 
 ID: 3, Datentyp: listmultiselect
 * 1 - Zahlen und Operationen
@@ -105,8 +109,10 @@ ID: 3, Datentyp: listmultiselect
 * 5.2 - Wahrscheinlichkeiten von Ereignissen in Zufallsexperimenten vergleichen
 * 5.2.a - Grundbegriffe kennen (z. B. sicher, unmöglich, wahrscheinlich)
 * 5.2.b - Gewinnchancen bei einfachen Zufallsexperimenten (z. B. bei Würfelspielen) einschätzen
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 7 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 11 <br>## Kompetenzbereich Ma HSA/MSA (Leitidee)
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 7 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 11 <br> 
+## Kompetenzbereich Ma HSA/MSA (Leitidee)
 
 ID: 4, Datentyp: listmultiselect
 * Zahl (L1)
@@ -114,8 +120,10 @@ ID: 4, Datentyp: listmultiselect
 * Raum und Form (L3)
 * Funktionaler Zusammenhang (L4)
 * Daten und Zufall (L5)
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 8 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br>## Kompetenzbereich Ma Primar (Leitidee)
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 8 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br> 
+## Kompetenzbereich Ma Primar (Leitidee)
 
 ID: 5, Datentyp: listmultiselect
 * 1\. Zahlen und Operationen
@@ -123,22 +131,28 @@ ID: 5, Datentyp: listmultiselect
 * 3\. Muster und Strukturen
 * 4\. Größen und Messen
 * 5\. Daten, Häufigkeit und Wahrscheinlichkeit
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 7 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br>## Anforderungsbereich Ma Primar
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 7 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br> 
+## Anforderungsbereich Ma Primar
 
 ID: 6, Datentyp: listmultiselect
 * I - Reproduzieren
 * II - Zusammenhänge herstellen
 * III - Verallgemeinern und Reflektieren
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 7 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br>## Anforderungsbereich Ma HSA/MSA
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 7 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br> 
+## Anforderungsbereich Ma HSA/MSA
 
 ID: 7, Datentyp: listmultiselect
 * I - Reproduzieren
 * II - Zusammenhänge herstellen
 * III - Verallgemeinern und Reflektieren
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 8 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br>## Kompetenzstufe Ma Primar
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 8 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br> 
+## Kompetenzstufe Ma Primar
 
 ID: 8, Datentyp: listsingleselect
 * I
@@ -146,8 +160,10 @@ ID: 8, Datentyp: listsingleselect
 * III
 * IV
 * V
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 7 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br>## Kompetenzstufe Ma HSA/MSA
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 7 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br> 
+## Kompetenzstufe Ma HSA/MSA
 
 ID: 9, Datentyp: listsingleselect
 * I.a
@@ -156,8 +172,10 @@ ID: 9, Datentyp: listsingleselect
 * III
 * IV
 * V
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 8 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br>## Bildungsstandards Ma inhaltsbezogen HSA/MSA
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 8 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br> 
+## Bildungsstandards Ma inhaltsbezogen HSA/MSA
 
 ID: 10, Datentyp: listmultiselect
 * 1 - Zahl
@@ -238,8 +256,10 @@ ID: 10, Datentyp: listmultiselect
 * 5.06m - Zufall im Alltag
 * 5.07h - Wahrscheinlichkeiten in Zufallsexperimenten
 * 5.07m - Wahrscheinlichkeiten in Zufallsexperimenten
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 8 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 11 <br>## Kompetenzbereich De Primar
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 8 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 11 <br> 
+## Kompetenzbereich De Primar
 
 ID: 11, Datentyp: listsingleselect
 * 1\. Sprechen und Zuhören
@@ -247,8 +267,10 @@ ID: 11, Datentyp: listsingleselect
 * 3\. Lesen
 * 4\. Sprache und Sprachgebrauch
 * 5\. Rechtschreibung
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 1 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br>## Kompetenzbereich De HSA/MSA
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 1 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br> 
+## Kompetenzbereich De HSA/MSA
 
 ID: 12, Datentyp: listsingleselect
 * Zuhören
@@ -256,8 +278,10 @@ ID: 12, Datentyp: listsingleselect
 * Orthografie
 * Lesen
 * Sprachreflexion
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 2 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br>## Bildungsstandards De Primar
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 2 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br> 
+## Bildungsstandards De Primar
 
 ID: 13, Datentyp: listmultiselect
 * 1 - Sprechen und Zuhören
@@ -364,8 +388,10 @@ ID: 13, Datentyp: listmultiselect
 * 5.1.d - über Fehlersensibilität und Rechtschreibgespür verfügen
 * 5.1.e - Rechtschreibhilfen verwenden / Wörterbuch nutzen/Rechtschreibhilfen des Computers kritisch nutzen
 * 5.1.f - Arbeitstechniken nutzen: methodisch sinnvoll abschreiben/Übungsformen selbstständig nutzen/Texte auf orthographische Richtigkeit überprüfen und korrigieren
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 1 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br>## Bildungsstandards De HSA/MSA
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 1 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br> 
+## Bildungsstandards De HSA/MSA
 
 ID: 14, Datentyp: listmultiselect
 * 1 - Sprechen und Zuhören
@@ -508,22 +534,28 @@ ID: 14, Datentyp: listmultiselect
 * 4.4.1 - HSA: grundlegende Regeln der Orthografie und Zeichensetzung kennen und beim Sprachhandeln anwenden.// MSA: wichtige Regeln der Aussprache und der Orthografie kennen und beim Sprachhandeln berücksichtigen.
 * 4.M.1 - HSA: Verfahren der Fehlerkontrolle: z.B. Nachschlagetechniken, gliederndes Mitsprechen. die Klang-, Weglass-, Umstell-, Ersatzprobe anwenden, // MSA: Rechtschreibstrategien anwenden: z.B. Ableitung vom Wortstamm, Wortverlängerung, Ähnlichkeitsschreibung, 
 * 4.M.2 - nur MSA: Nachschlagewerke nutzen.
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 2 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br>## Anforderungsbereich De Primar
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 2 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br> 
+## Anforderungsbereich De Primar
 
 ID: 15, Datentyp: listmultiselect
 * I - Wiedergeben
 * II - Zusammenhänge herstellen
 * III - Reflektieren und beurteilen
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 1 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br>## Anforderungsbereich De HSA/MSA
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 1 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br> 
+## Anforderungsbereich De HSA/MSA
 
 ID: 16, Datentyp: listmultiselect
 * I
 * II
 * III
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 2 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br>## Kompetenzstufe De Primar
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 2 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br> 
+## Kompetenzstufe De Primar
 
 ID: 17, Datentyp: listsingleselect
 * I
@@ -531,8 +563,10 @@ ID: 17, Datentyp: listsingleselect
 * III
 * IV
 * V
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 1 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br>## Kompetenzstufe De HSA/MSA
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 1 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br> 
+## Kompetenzstufe De HSA/MSA
 
 ID: 18, Datentyp: listsingleselect
 * I
@@ -540,8 +574,10 @@ ID: 18, Datentyp: listsingleselect
 * III
 * IV
 * V
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 2 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br>## Kompetenzstufe Englisch HSA/MSA
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 2 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br> 
+## Kompetenzstufe Englisch HSA/MSA
 
 ID: 19, Datentyp: listsingleselect
 * A1.1
@@ -553,16 +589,20 @@ ID: 19, Datentyp: listsingleselect
 * B2.1
 * B2.2
 * C1
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 4 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 11 <br>## Kompetenzbereich En Fr HSA/MSA
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 4 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 11 <br> 
+## Kompetenzbereich En Fr HSA/MSA
 
 ID: 20, Datentyp: listsingleselect
 * Leseverstehen
 * Hörverstehen
 * Schreiben
 * Hörsehverstehen
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 4 6 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br>## Kompetenzstufe Französisch MSA
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 4 6 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 4 11 <br> 
+## Kompetenzstufe Französisch MSA
 
 ID: 21, Datentyp: listsingleselect
 * A1
@@ -573,5 +613,6 @@ ID: 21, Datentyp: listsingleselect
 * B2.1
 * B2.2
 * C1
-## MDDefMetadata: 
-Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 6 <br>Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 11 <br>
+### MDDefMetadata: 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 1 <br> Value: 6 <br> 
+Cat: DOI:10.5159/IQB_MDR_Core_v1 <br> Def: 2 <br> Value: 11 <br> 
