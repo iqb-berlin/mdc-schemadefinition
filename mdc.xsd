@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema 
+<xs:schema
 	elementFormDefault="qualified"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
@@ -286,6 +286,15 @@
 									<xs:enumeration value="taxonomy" />
 								</xs:restriction>
 							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="deprecated" type="xs:boolean" use="optional" default="false">
+							<xs:annotation>
+								<xs:documentation xml:lang="de">
+									Kennzeichnet, ob diese Metadatendefinition veraltet ist und nicht mehr verwendet werden sollte.
+									Veraltete Definitionen werden automatisch aus bestehenden Daten entfernt.
+									Standardwert ist "false" (nicht veraltet).
+								</xs:documentation>
+							</xs:annotation>
 						</xs:attribute>
 					</xs:complexType>
 					<xs:unique name="MDDefLabelLanguageUnique">
