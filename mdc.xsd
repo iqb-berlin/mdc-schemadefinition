@@ -200,6 +200,21 @@
 									<xs:sequence>
 										<xs:element name="Label" type="MultiLanguageTextType" minOccurs="0" maxOccurs="unbounded"/>
 										<xs:element name="Description" type="MultiLanguageTextType" minOccurs="0" maxOccurs="unbounded"/>
+										<xs:element name="nameIdentifier" minOccurs="0" maxOccurs="unbounded">
+											<xs:annotation>
+												<xs:documentation xml:lang="de">
+													Optionaler persistenter Identifikator des Listenwerts, z. B. die ROR-ID einer Organisation.
+												</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute name="nameIdentifierScheme" type="xs:string" use="required"/>
+														<xs:attribute name="schemeURI" type="xs:anyURI" use="optional"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
 									</xs:sequence>
 									<xs:attribute name="id" type="xs:nonNegativeInteger" use="required"/>
 									<xs:attribute name="taxpos" use="optional">
